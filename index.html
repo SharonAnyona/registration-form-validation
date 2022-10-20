@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>KESCA registration form</title>
+<meta name="keywords" content="KESCA registration form" />
+<meta name="description" content=" KESCA JavaScript Form Validation  " />
+<link rel='stylesheet' href='index.css' type='text/css' />
+<script src="index.js"></script>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Fill This Form To Register as a Member of KESCA</h1>
+<hr>
+<p>Use tab keys to move from one input field to the next.</p>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<h2><u>BASIC INFORMATION</u></h2>
+<li><label for="firstname">FIRST NAME:</label><input type="text" name="firstname" size="50" /></li>
+<li><label for="lastname">LAST NAME:</label><input type="text" name="lastname" size="50" /></li>
+<li><label for="userid">ID NO:</label><input type="text" name="userid" size="12" /></li>
+<li><label for="age">AGE:</label><input type="text" age="age" size="12" /></li>
+<li><label for="year">BIRTH YEAR:</label><input type="text" name="year" size="12" /></li>
+<li><label for="address">ADDRESS:</label><input type="text" name="address" size="50" /></li>
+<li><label for="phone">PHONE NO:</label><input type="text" name="phone" size="15" /></li>
+<li><label for="country">COUNTRY:</label><select name="country">
+    <option selected="" value="Default">(Please select a country)</option>
+    <option value="AF">Australia</option>
+    <option value="AL">Canada</option>
+    <option value="DZ">India</option>
+    <option value="AS">Russia</option>
+    <option value="AD">USA</option>
+    <option value="KE">Kenya</option>
+    </select></li>
+<li><label for="zip">ZIP CODE:</label><input type="text" name="zip" /></li>
+<li><label for="email">EMAIL:</label><input type="text" name="email" size="50" /></li>
+<li><label for="sex">SEX</label>
+    <select id="sex">
+        <option value="msex">male</option>
+        <option value="fsex" selected>female</option>
+    </select></li>
+<li><label for="marital status">MARITAL_STATUS:</label><select name="marital status">
+    <option selected="" value="Default">none</option>
+    <option value="Married">Married</option>
+    <option value="Single">Single</option>
+    </select></li>
+</ul>
+<hr>
+<ul>
+<li><span><h2><u>INSTITUTION (CCI) DETAILS</u></h2></span></li>
+<li><label for="cci name">INSTITUTION_NAME:</label><input type="text" name="cciname" size="50" /></li>
+<li><label for="years spent">YEARS_SPENT:</label><input type="text" name="years spent" size="12" /></li>
+</ul>
+<hr>
+<ul>
+<li><span><h2><u>OTHER INFORMATION</u></h2></span></li>
+<li><label for="business">BUSINESS:</label><input type="text" name="business" size="50" /></li>
+<li><label for="level of education">LEVEL_OF_EDUCATION:</label><input type="text" name="level of educataion" size="50" /></li>
+<li><label for="income source">SOURCE_OF_INCOME:</label><input type="text" name="income source" size="50" /></li>
+<li><label for="desc">COMMENTS/REMARKS:</label><textarea name="desc" id="desc"></textarea></li>
+<li class="submit"><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
+

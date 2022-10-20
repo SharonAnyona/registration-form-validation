@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+    }
+    .Title2{
+        margin-inline-start: 0%;
+    }
+   
+   li {
+    list-style: none;
+    margin-bottom: 5px;
+    list-style-position: outside;
+    }
+    form ul{
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0px;
+    }
+    form ul li label{
+    float:left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 70px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    }
+    form ul li input, select, span {
+    float: left;
+    margin-bottom: 15px;
+    }
+    
+    form textarea {
+    float: left;
+    width: 350px;
+    height: 150px;
+    }
+    [type="submit"] {
+    clear: left;
+    margin: 15px 0 0 250px;
+    font-size:20px;
+    background-color: darkgrey;
+    border-radius: 50px;
+    size-adjust: auto;
+    width: 130px;
+    height: 40px;
+    }
+    p {
+    margin-left: 70px;
+    font-weight: bold;
+    text-align: center;
+    }
+    body{
+        background-color: silver;
+    }
+    hr {
+        border: none;
+        border-top: 3px double #333;
+        color: #333;
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+        }
+    hr:after {
+            background: silver;
+            content: '§';
+            padding: 0 4px;
+            position: relative;
+            top: -13px;
+        }
+    
+    
+
+
+
+    
+    
+ 
+    
+    
